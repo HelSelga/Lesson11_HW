@@ -1,10 +1,10 @@
-/* Сперва общие правила */
+/* Общие правила */
 
 * {
     box-sizing: border-box
 }
 
-/* Потом селекторы по тегам */
+/* Селекторы по тегам */
 
 html {
     font-family: Arial;
@@ -31,10 +31,6 @@ p {
     line-height: 150%;
 }
 
-a {
-
-}
-
 /* Колонки */
 
 .row {
@@ -45,7 +41,7 @@ a {
 }
 
 
-/* Потом селекторы по классам */
+/* Селекторы по классам */
 
 .text-input {
     width: 100%;
@@ -65,7 +61,7 @@ a {
     color: white;
 }
 
-/* Потом специальные правила по страничкам */
+/* Специальные правила по страничкам */
 
 /* Login*/
 
@@ -121,15 +117,26 @@ a {
 /* Страничка подписки  */
 
 .box-green {
-
+    background-color: #E1F5EA;
+    border-radius: 4px;
+    margin-bottom: 32px;
+    padding: 24px 16px;
+    border: none;
 }
 
 .box-purple {
-
+    background-color: #EBDCF9;
+    border-radius: 4px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding: 24px 16px;
+    border: none;
 }
 
 .text-large {
-
+    font-size: 24px;
+    margin-bottom: 8px;
+    font-weight: bold;
 }
 
 .button-link {
@@ -140,5 +147,5 @@ a {
     border-color: white;
     color: white;
     text-decoration: none;
-    margin-right: 8px;
+    margin-right: 16px;
 }
